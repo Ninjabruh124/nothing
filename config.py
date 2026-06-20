@@ -77,14 +77,14 @@ VERIFY_ENABLE = os.environ.get("VERIFY_ENABLE", "True") == "True"
 # Your gplinks Developer API key (gplinks dashboard -> Developer API). REQUIRED.
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 # gplinks API endpoint. Usually no need to change.
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "https://vplink.in/api")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "https://arolinks.com/api")
 
 # Public HTTPS URL of THIS bot's web server (e.g. https://your-app.koyeb.app), NO trailing slash.
 # Koyeb/Render/Heroku expose the bot's PORT here. The /link and /confirm pages live on this URL.
 BASE_URL = os.environ.get("BASE_URL", "").rstrip("/")
 
 # How long (seconds) one successful verification grants free access. 86400 = 24 hours.
-VERIFY_EXPIRE = int(os.environ.get("VERIFY_EXPIRE", "86400"))
+VERIFY_EXPIRE = int(os.environ.get("VERIFY_EXPIRE", "43200"))
 # How long (seconds) an issued token stays valid to be completed. 900 = 15 minutes.
 VERIFY_TOKEN_TTL = int(os.environ.get("VERIFY_TOKEN_TTL", "900"))
 # Reject completions faster than this many seconds (catches instant bypass tools).
@@ -99,7 +99,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "")
 TUTORIAL = os.environ.get("TUTORIAL", "")
 
 # Message shown together with the verify button.
-VERIFY_MSG = os.environ.get("VERIFY_MSG", "<b>🔒 Verification Required\n\nPlease Solve This Shortlink To Unlock Your Files.\nIt nly Takes A Few Seconds To Solve This Shortlink and Solve Link Once & Use Bot Without Any Ads For Next 24 Hrs.</b>")
+VERIFY_MSG = os.environ.get("VERIFY_MSG", "<b>🔒 Verification Required\n\nPlease Solve This Shortlink To Unlock Your Files.\nIt Only Takes A Few Seconds To Solve This Shortlink.\n\nSolve Link Once & Use Bot Without Any Ads For Next 12 Hrs.</b>")
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b>You Are Not Allowed To Do That , Only Owner And Admins Can Use Me 🔌</b>"
