@@ -77,7 +77,7 @@ VERIFY_ENABLE = os.environ.get("VERIFY_ENABLE", "True") == "True"
 # Your gplinks Developer API key (gplinks dashboard -> Developer API). REQUIRED.
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 # gplinks API endpoint. Usually no need to change.
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "https://api.gplinks.com/api")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "https://vplink.in/api")
 
 # Public HTTPS URL of THIS bot's web server (e.g. https://your-app.koyeb.app), NO trailing slash.
 # Koyeb/Render/Heroku expose the bot's PORT here. The /link and /confirm pages live on this URL.
