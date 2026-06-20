@@ -99,7 +99,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "")
 TUTORIAL = os.environ.get("TUTORIAL", "")
 
 # Message shown together with the verify button.
-VERIFY_MSG = os.environ.get("VERIFY_MSG", "<b>🔒 Verification Required\n\nPlease complete a quick verification to unlock your files.\nIt only takes a few seconds and keeps this bot free.</b>")
+VERIFY_MSG = os.environ.get("VERIFY_MSG", "<b>🔒 Verification Required\n\nPlease Solve This Shortlink To Unlock Your Files.\nIt nly Takes A Few Seconds To Solve This Shortlink and Solve Link Once & Use Bot Without Any Ads For Next 24 Hrs.</b>")
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b>You Are Not Allowed To Do That , Only Owner And Admins Can Use Me 🔌</b>"
